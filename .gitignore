@@ -1,0 +1,22 @@
+/.env
+/.env.backup
+/.env.production
+/vendor/
+/node_modules/
+/public/build/
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+*.log
+.phpunit.result.cache
+/.idea
+/.vscode
+.DS_Store
+
+# Platform-managed agentplat state, not project source. In the
+# client-initiated single-repo workspace layout (make's `Path: "."` spec) the
+# repo root IS the workspace root, so these land inside this repo rather than
+# beside it.
+/.plugins/
+/.opencode-skills/
